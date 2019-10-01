@@ -15,7 +15,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void postLogin (View View) {
-        Intent intent = new Intent (this, SuccessLogin.class);
+        Intent intent = new Intent (this, Home.class);
         startActivity(intent);
     }
 
